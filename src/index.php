@@ -19,7 +19,7 @@
                 <h2>Congratulations</h2>
                 <p>Your Telstra application is now running on a Docker container in Amazon ECS.</p>
                 <p>The container is running PHP version <?php echo phpversion(); ?>.</p>
-                <p>Test change 1</p>
+                <p>Lab 2 - Manual approval</p>
                 <?php
                         $myfile = fopen("/var/www/my-vol/date", "r") or die("");
                         echo fread($myfile,filesize("/var/www/my-vol/date"));
